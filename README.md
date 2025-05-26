@@ -41,6 +41,33 @@ Voici un aperçu visuel du pipeline :
 - Ollama installé localement : [https://ollama.com](https://ollama.com)
 - Git + navigateur pour GitHub
 
+🦙 Installer et configurer Ollama (obligatoire)
+
+Ollama est utilisé pour :
+
+  - 🧠 générer les embeddings (nomic-embed-text)
+
+  - 🗣️ répondre aux requêtes (via le modèle mistral:7b)
+
+📥 Installation (Linux/macOS/WSL)
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+▶️ Démarrer Ollama
+
+```bash
+ollama serve
+```
+
+📦 Télécharger les modèles nécessaires
+
+```bash
+ollama pull nomic-embed-text
+ollama pull mistral
+```
+
 ---
 
 ### 📦 2. Installation du backend (API + Embeddings)
