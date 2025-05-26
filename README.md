@@ -66,6 +66,8 @@ python build_index.py --reset
 python api.py
 ```
 
+---
+
 ###  💻 3. Lancer le frontend React
 
 ```bash
@@ -75,6 +77,8 @@ npm start
 ```
 
 Application accessible sur : http://localhost:3000
+
+---
 
 ### 📂 Structure du projet
 
